@@ -1,6 +1,6 @@
 {
-  "name": "server",
-  "description": "codedoc server",
+  "name": "{{project-name}}",
+  "description": "{{project-description}}",
   "version": "0.0.0",
   "maintainers": [
     {
@@ -13,20 +13,17 @@
     }
   ],
   "main": "index.js",
-  "homepage": "https://github.com/codedoc-io/server",
+  "homepage": "https://github.com/{{git-user}}/{{git-repo}}",
   "repository": {
     "type": "git",
-    "url": "git://github.com/codedoc-io/server.git"
+    "url": "git://github.com/{{git-user}}/{{git-repo}}"
   },
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
     "node": "*"
   },
   "dependencies": {
     "express": "*",
-    "superagent": "*",
-    "redox": "*",
-    "github-finder": "*"
   },
   "devDependencies": {}
 }

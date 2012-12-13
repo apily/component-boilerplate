@@ -18,7 +18,7 @@ release: build
 	uglifyjs build/build.js -cm -o build/build.min.js
 
 clean:
-	rm -fr build components release $(TEMPLATES)
+	rm -fr build components $(TEMPLATES)
 
 
 .PHONY: clean
