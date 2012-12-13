@@ -1,0 +1,13 @@
+{
+  "name": "{{project-name}}",
+  "description": "{{project-description}}",
+  "version": "0.0.0",
+  "dependencies": {
+  },
+  "local": [
+    "app"
+  ],
+  "paths": [
+    "local"
+  ]
+}

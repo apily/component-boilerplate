@@ -1,0 +1,13 @@
+{
+  "name": "local-dependency",
+  "description": "local dependency component",
+  "dependencies": {
+  },
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "style.css"
+  ]
+}

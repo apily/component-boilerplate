@@ -1,0 +1,9 @@
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+node_modules
+components
+build
+client/local/*/template.js
