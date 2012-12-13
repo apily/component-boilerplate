@@ -8,7 +8,6 @@
  */
 
 var express = require('express');
-var request = require('superagent');
 var build = require('./build.js');
 
 var server = express();
